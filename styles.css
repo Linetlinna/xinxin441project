@@ -1,0 +1,334 @@
+/* Linet(Lin Na) */  
+nav {  
+    background-color: #333;  
+    overflow: hidden;  
+}  
+  
+nav a {  
+    float: left;  
+    color: #f2f2f2;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+    font-size: 17px;  
+}  
+  
+nav a:hover {  
+    background-color: #ddd;  
+    color: black;  
+}  
+  
+nav::after {  
+    content: "";  
+    display: table;  
+    clear: both;  
+}  
+  
+  
+footer {  
+    background-color: #333;  /* Set the background color to dark gray */
+    color: #fff;  /* Set the text color to white */
+    text-align: center;  /* Center text horizontally */
+    padding: 1px;  
+    position: fixed;  
+    left: 0;  
+    bottom: 0;  
+    width: 100%;  
+    clear: both;
+    position: relative;
+}  
+  
+body {  
+    margin: 0;  
+    padding: 20px;  
+    font-family: Arial, sans-serif;  
+}  
+  
+.content {  
+    margin-bottom: 50px; /* Make room for the footer */  
+        text-align: center; /* Center the content level */  
+}
+
+#logo {  
+    width: 35px;  
+    height: auto; 
+    margin-right: 10px; /* Spacing between Logo and navigation link */  
+    vertical-align: middle; 
+}  
+img {  
+    max-width: 100%; /*The image width is at most 100% of the width of its container */  
+    height: auto;  
+    display: block; 
+    margin: 0 auto; 
+}  
+.left-aligned-text {  
+    
+    border: 2px solid #ea9834; 
+     
+    padding: 20px;
+    margin-right: auto;  
+    
+    width: 80%;  
+    max-width: 600px; 
+    margin-bottom: 50px; 
+    position: relative;
+}  
+.content-wrapper {  
+    display: flex;
+    align-items: flex-start; 
+}  
+  
+
+  
+.zhuye {  
+    margin-left: 20px; /* The space between the image and the text block*/  
+   
+}  
+  
+.zhuye img {  
+    max-width: 80%;  
+    height: auto; 
+}
+
+.about-container {  
+    width: 600px; 
+    padding: 20px;  
+    background-color: #e6e3e3f5;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    float: right;  
+    margin-bottom: 50px; 
+}  
+
+.about-text h4 {  
+    margin-top: 0;  
+}  
+
+.zuohoudimg {  
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center; 
+    
+    margin-bottom: 30px; 
+}  
+.zuohoudimg img {  
+  
+    width: 60%;  
+    margin-right: 2%;
+}  
+.zuohoudimg img:last-child {  
+    margin-right: 0; 
+} 
+
+
+
+.course{
+    display: flex;
+    flex-wrap: wrap; /* wrap out-of-scope elements */
+    margin: 0 20px;
+    justify-content: center;
+}
+
+.card{
+    border: #f5f107 3px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+.space {  
+    text-align: center;
+}  
+.piece{
+    font-size: medium;
+}
+
+.price{
+    text-align: center;
+}
+
+.price a{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.price a:hover{
+    text-decoration-line: underline;
+}
+
+
+
+.bordered-form {  
+    border: 2px solid #000; /* Sets the border style, width, and color */  
+    padding: 20px; /* Add inside margins so that there is space between the content and the border */  
+    margin: 0 auto;  
+    max-width: 600px;  
+    margin-bottom: 50px;
+    margin-top: 50px; 
+}  
+  
+  
+.bordered-form h1 {  
+    text-align: center; 
+    margin-bottom: 20px; 
+}  
+
+.form-group {  
+    margin-bottom: 15px; 
+    margin-right: 10px; 
+}  
+  
+.form-group label {  
+    display: block;
+    margin-bottom: 5px; 
+}  
+  
+
+.form-row {  
+    display: flex;  
+    justify-content: space-between; 
+    align-items: flex-start; 
+}  
+.form-two {  
+    display: flex;  
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+.flex-container {  
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    
+}  
+  
+.submit-btn {  
+    font-size: 18px;  
+    padding: 10px 20px;  
+}
+.cards{
+    border: #032c95 3px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    background-color: #61dbeb; 
+    width: calc(33.33% - 20px);  
+        box-sizing: border-box; 
+}
+.project {  
+    display: flex; 
+    justify-content: space-between;  
+    flex-wrap: nowrap; 
+    padding: 10px; 
+} 
+.image-container {  
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center; 
+}  
+
+.image-container img {  
+    width: calc(33.33% - 20px);   
+    margin-right: 10px; 
+    
+}  
+
+.image-container img:last-child {  
+    margin-right: 0; 
+}    
+.dropdown {  
+    display: inline-block;  
+}  
+  
+.dropdown-content {  
+    display: none;  
+    position: absolute;  
+    background-color: #f9f9f9;  
+    min-width: 160px;  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+    padding: 12px 16px;  
+    z-index: 1;  
+}  
+  
+.dropdown-content a {  
+    color: black;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+ /*login*/ 
+.form{
+    width: 30%;
+    background-color: rgb(240, 202, 231);
+    border-radius: 10px;
+    margin: 180px auto;
+    padding: 1px 30px 20px;
+    display: grid;
+    align-items: center;
+}
+
+.login label{
+    display: block;
+    font-size: medium;
+}
+
+.login input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.login a{
+    font-size: small;
+}
+
+.input {
+    width: 17%;
+    margin: 10px auto 5px;
+    padding: 5px;
+}
+.form button{
+    width: 15%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.center-button {  
+    text-align: center;  
+    margin-top: 50px; 
+}
+.form p{
+    text-align: center;  
+}
+.title {
+    text-align: center;  
+}
+.courseware {  
+    width: 100%;  
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}  
+.shop {  
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px; 
+    box-sizing: border-box;   
+   
+    background-color: #fff;  
+    border: 1px solid #ccc;  
+    padding: 10px;   
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; 
+}
+.cart {  
+   
+    border: 1px solid #646464; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    background-color: #fff; 
+}
+
+
